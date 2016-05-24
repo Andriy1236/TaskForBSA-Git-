@@ -10,6 +10,8 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Calculator.Addition(1, 2));
+            Console.WriteLine(Calculator.Substact(5, 1));
         }
     }
 }
