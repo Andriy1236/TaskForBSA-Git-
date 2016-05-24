@@ -12,9 +12,10 @@ namespace ConsoleApplication
         {
             Console.WriteLine(Calculator.Addition(1, 2));
             Console.WriteLine(Calculator.Substact(5, 1));
+            Greeting();
         }
 
-        public void Greeting()
+        public static void Greeting()
         {
             Console.WriteLine("Hello!!!");
         }
