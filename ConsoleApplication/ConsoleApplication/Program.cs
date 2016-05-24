@@ -11,5 +11,10 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
         }
+
+        public void Greeting()
+        {
+            Console.WriteLine("Hello!!!");
+        }
     }
 }
